@@ -3055,3 +3055,6 @@ AbstractController::ActionNotFound (The action 'new' could not be found for Orde
 Started GET "/products/new" for 24.189.64.248 at 2019-01-24 02:00:54 +0000
 Cannot render console from 24.189.64.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#new as HTML
+  Rendered products/new.html.erb within layouts/application (826.3ms)
+Completed 200 OK in 1115ms (Views: 1075.4ms | ActiveRecord: 0.8ms)
